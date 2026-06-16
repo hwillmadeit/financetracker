@@ -82,7 +82,7 @@ export default function Home() {
 
   return (
     <div className="app-wrap">
-      <h1 className="app-title">우리집 재정관리</h1>
+      <h1 className="app-title">우리집 재정관리💰</h1>
       <div className="tabs">
         {TABS.map(t => (
           <button key={t.id} className={`tab ${tab === t.id ? 'active' : ''}`} onClick={() => setTab(t.id)}>{t.label}</button>
