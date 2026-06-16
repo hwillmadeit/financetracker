@@ -77,7 +77,7 @@ export default function Home() {
     { id: 'overview', label: '요약' }, { id: 'investment', label: '투자' },
     { id: 'insurance', label: '보험' }, { id: 'subscription', label: '구독' },
     { id: 'education', label: '교육' }, { id: 'loan', label: '대출' },
-    { id: 'expenses', label: '생활비' }, { id: 'search', label: '검색' },
+    { id: 'expenses', label: '생활비' }, { id: 'search', label: '🔍' },
   ]
 
   return (
