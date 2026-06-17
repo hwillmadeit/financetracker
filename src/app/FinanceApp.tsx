@@ -285,7 +285,7 @@ function MainApp({ data, save, onLock }: { data: AppData; save: (d: AppData) => 
   return (
     <div className="app-wrap">
       <div className="app-header">
-        <h1 className="app-title">개인 재정 관리</h1>
+        <h1 className="app-title">우리집 재정 관리</h1>
         <button className="lock-toggle-btn" onClick={onLock}>🔒 잠금</button>
       </div>
       <div className="tabs">
